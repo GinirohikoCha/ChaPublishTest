@@ -1,4 +1,4 @@
-import HelloWorld from './HelloWorld/index'
+import HelloWorld from './HelloWorld'
 
 const components = [
   HelloWorld
