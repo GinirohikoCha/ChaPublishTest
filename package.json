@@ -1,11 +1,11 @@
 {
   "name": "cha-publish-test",
-  "version": "0.1.7",
+  "version": "0.1.8",
   "author": {
     "name": "GinirohikoCha"
   },
   "description": "test",
-  "main": "dist/cha-publish-test.umd.js",
+  "main": "dist/cha-publish-test.umd.min.js",
   "private": false,
   "license": "MIT",
   "scripts": {
@@ -52,5 +52,11 @@
     "> 1%",
     "last 2 versions",
     "not dead"
+  ],
+  "files": [
+    "dist/cha-publish-test.common.js",
+    "dist/cha-publish-test.umd.js",
+    "dist/cha-publish-test.umd.min.js",
+    "dist/cha-publish-test.css"
   ]
 }

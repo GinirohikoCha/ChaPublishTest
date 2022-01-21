@@ -14,9 +14,9 @@ const install = (app) => {
   })
 }
 
-if (typeof window !== 'undefined' && window.Vue) {
-  install(window.Vue)
-}
+// if (typeof window !== 'undefined' && window.Vue) {
+//   install(window.Vue)
+// }
 
 export default {
   install,
