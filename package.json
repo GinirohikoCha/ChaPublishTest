@@ -1,11 +1,18 @@
 {
   "name": "cha-publish-test",
-  "version": "0.1.0",
-  "private": true,
+  "version": "0.1.5",
+  "author": {
+    "name": "GinirohikoCha"
+  },
+  "description": "test",
+  "main": "dist/cha-publish-test.umd.js",
+  "private": false,
+  "license": "MIT",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "build-component": "vue-cli-service build --target lib --name cha-publish-test src/components/index.js"
   },
   "dependencies": {
     "core-js": "^3.6.5",
